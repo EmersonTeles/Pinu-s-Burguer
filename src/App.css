@@ -40,8 +40,10 @@ p{
   color: white;
 }
 @media(max-width: 700px){
-  img{
+  .Content{
     max-width: 80%;
+  }
+  img{   
     margin: 0 auto;
     align-self: center;
   }
