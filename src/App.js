@@ -6,7 +6,7 @@ function App() {
   const instagram = "https://www.instagram.com/pinusburguer/"
   return (
     <div className="App">
-      <div>
+      <div className="Content">
         <img src={logo} alt="logo pinus"/>
         <h1>Em breve aqui o novo site Pinu's Burger!</h1>
         <div className="Social">
