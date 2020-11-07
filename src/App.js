@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import logo from './assets/Logo reta.svg';
-
 function App() {
   const instagram = "https://www.instagram.com/pinusburguer/"
   return (
