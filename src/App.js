@@ -24,13 +24,15 @@ function App() {
         </div>
         <div className="maps">
           <p>Venha nos visitar: </p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.6069337860607!2d-48.016921170792656!3d-15.883054709407705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDUyJzU5LjAiUyA0OMKwMDAnNTkuMCJX!5e1!3m2!1spt-BR!2sbr!4v1604776385055!5m2!1spt-BR!2sbr" 
-                    allowfullscreen="" 
+          <p Style="font-size:12px;">localização atualizada em 10/11/2020 às 17:00</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d959.388305201997!2d-48.010690970792716!3d-15.880062309388643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2dd1f100abb3%3A0x9f28188f90de4e3f!2s1%20-%20Riacho%20Fundo%20QN%201%20-%20Riacho%20Fundo%20I%2C%20Bras%C3%ADlia%20-%20DF%2C%2071805-100!5e0!3m2!1spt-BR!2sbr!4v1605039467564!5m2!1spt-BR!2sbr"
                     aria-hidden="false" 
                     tabindex="0"
-                    title="Location">>
+                    title="Location"
+                    allowfullscreen>
+                    
           </iframe>
-        </div>
+          </div>
       </div>
     </div>
   );
