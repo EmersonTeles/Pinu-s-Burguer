@@ -25,12 +25,11 @@ function App() {
         <div className="maps">
           <p>Venha nos visitar: </p>
           <p Style="font-size:12px;">localização atualizada em 10/11/2020 às 17:00</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d959.388305201997!2d-48.010690970792716!3d-15.880062309388643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2dd1f100abb3%3A0x9f28188f90de4e3f!2s1%20-%20Riacho%20Fundo%20QN%201%20-%20Riacho%20Fundo%20I%2C%20Bras%C3%ADlia%20-%20DF%2C%2071805-100!5e0!3m2!1spt-BR!2sbr!4v1605039467564!5m2!1spt-BR!2sbr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d959.3873786970648!2d-48.01100527080876!3d-15.880256809389843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2dd1fa2a359d%3A0xb070c91532391260!2sRiacho%20Fundo%20I%20Cln%203%20-%20Riacho%20Fundo%20-%20Riacho%20Fundo%20I%2C%20Bras%C3%ADlia%20-%20DF%2C%2071825-300!5e0!3m2!1spt-BR!2sbr!4v1605992803405!5m2!1spt-BR!2sbr"
                     aria-hidden="false" 
                     tabindex="0"
                     title="Location"
                     allowfullscreen>
-                    
           </iframe>
           </div>
       </div>
