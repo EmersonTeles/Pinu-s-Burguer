@@ -37,7 +37,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: rgb(255, 162, 56);
+    color: #ffa238;
     cursor: pointer;
     text-decoration: solid;
 }
