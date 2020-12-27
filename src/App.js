@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
 import Head from './components/Head/';
+import Banner from './components/Banner/';
 import Footer from './components/Footer/';
-import fundo from './assets/foto de fundo.jpg';
+import Cardapio from './components/Cardapio/';
 
 function App() {
   return (
     <div className="Content">
 
       <Head/>
-      <div className="divFundo">
-        <img className="Fundo" src={fundo} alt= "fundo"/>
-      </div>
+      <Banner/>
+      <Cardapio/>
       <Footer/>
     </div>
   );

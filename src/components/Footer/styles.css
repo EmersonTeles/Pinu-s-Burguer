@@ -10,7 +10,7 @@
     position: relative;
     bottom: 0;
 }
-.Footer .Content{
+.Footer .content{
     height: 90%;
     background: black;
     display: flex;
@@ -45,7 +45,7 @@
         height: 80px;
         bottom: 0;
     }
-    .Content{
+    .content{
         height: 70px;
         bottom: 0;
     }

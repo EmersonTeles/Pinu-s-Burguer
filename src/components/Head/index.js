@@ -11,7 +11,7 @@ export default function Head(){
                         <a href="/">Home</a>
                     </li>
                     <li className="ItemLista">
-                        <a href="/">Cardápio</a>
+                        <a href="#Card">Cardápio</a>
                     </li>
                     <li className="ItemLista">
                         <a href="/">Delivery</a>

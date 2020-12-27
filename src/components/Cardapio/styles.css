@@ -1,0 +1,46 @@
+.Cardapio{
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: black;
+    color: rgb(220, 220, 220);
+}
+.Cardapio .Campo{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 80%;
+    height: fit-content;
+    text-align: center;
+    overflow: show;
+}
+.Cardapio .Campo h1{
+    margin-bottom: 3rem;
+    font-size: 2.5em;
+    color: #ffa238;
+}
+.Cardapio .Campo ul{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 5rem;
+}
+.Cardapio .Campo ul li{
+    width: 20rem;
+    height: 25rem;
+    /*border: 1.6px solid white;*/
+    border-radius: 2rem;
+    list-style-type: none;
+}
+.Cardapio .Campo ul li h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.Cardapio .Campo ul li img{
+    width: 90%;
+    border-radius: 1rem;
+}
