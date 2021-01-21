@@ -5,8 +5,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background: black;
-    color: rgb(220, 220, 220);
+    background-image: url('../../assets/vintage-concrete/vintage-concrete.png');
+    color: rgb(0, 0, 0);
+
 }
 .Cardapio .Campo{
     margin-top: 5rem;
@@ -25,13 +26,13 @@
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin: 0 auto;
-    gap: 5rem;
+    gap: 4rem;
 }
 .Cardapio .Campo ul li{
-    width: 20rem;
-    height: 25rem;
-    /*border: 1.6px solid white;*/
+    width: 30rem;
+    height: 30rem;
     border-radius: 2rem;
     list-style-type: none;
 }
@@ -40,7 +41,39 @@
     padding-bottom: 1rem;
     font-size: 1.5rem;
 }
+.Cardapio .Campo ul li h3{
+    font-weight: 300;
+}
 .Cardapio .Campo ul li img{
-    width: 90%;
+    width: 100%;
     border-radius: 1rem;
+}
+.title-burguer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.Cardapio-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Cardapio-img img{
+    width: 90%;
+}
+@media(max-width:1080px){
+    .Cardapio .Campo ul{
+        margin-bottom: 6rem;
+    }
+    .Cardapio .Campo ul li{
+        height: fit-content;
+    }
+    .Cardapio .Campo h1{
+        font-size: 2em;
+    }
+    .Cardapio-img img{
+        width: 100%;
+    }
 }

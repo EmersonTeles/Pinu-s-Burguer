@@ -1,8 +1,8 @@
 .Footer{
     height: 10vh;
     min-height: 100px;
-    background: black;
-    color: white;
+    background-image: url('../../assets/cork-wallet.png');
+    color: rgb(50, 50, 50);
     z-index: 10;
     display: flex;
     align-items: center;
@@ -12,7 +12,6 @@
 }
 .Footer .content{
     height: 90%;
-    background: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
