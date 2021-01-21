@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+ } 
+.Head{
+    width: 100%;
+    height: 8vh;
+    background-color: transparent;
+    /*background-image: url('../../assets/vintage-concrete/vintage-concrete.png');*/
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0.5%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+}
+.HeadContent{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 7vh;
+    padding-bottom: 0.2rem;
+}
+.Options{
+    min-width: 55vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ItemLista{
+    list-style-type: none;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    font-weight: 300;
+    text-decoration: none;
+}
+.ItemLista a:hover{
+    color: #ffa238;
+    cursor: pointer;
+    text-decoration: solid;
+}
+@media (max-width: 1300px){
+    .Options{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .ItemLista{
+        list-style-type: none;
+        margin: 0 2rem 0 2rem;
+    }
+    a{
+        font-size: 1.4em;
+    }
+}
+@media (max-width: 1000px){
+    .Options{
+        display: none;
+    }
+}

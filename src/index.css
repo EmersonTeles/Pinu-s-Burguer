@@ -3,10 +3,10 @@
   padding: 0;
   border: 0;
   font-family: 'Raleway', sans-serif;
-  -webkit-transition: 0.2s ease-in-out;
-  -moz-transition: 0.2s ease-in-out;
-  -o-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -17,7 +17,8 @@
 ::-webkit-scrollbar-thumb {
   background: rgb(100,100,100);
   border-radius: 8px;
+  transition: 0.3s ease-in-out;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(200, 200, 200);
+  background:  rgb(255, 191, 117);
 }  

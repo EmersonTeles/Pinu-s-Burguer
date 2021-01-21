@@ -1,9 +1,21 @@
 import React from 'react';
 import './App.css';
-import logo from './assets/Logo reta.svg';
+import Head from './components/Head/';
+import Banner from './components/Banner/';
+
+import Cardapio from './components/Cardapio/';
+import Contatos from './components/Contatos/';
+import Footer from './components/Footer/';
 function App() {
-  const instagram = "https://www.instagram.com/pinusburguer/"
   return (
+<<<<<<< HEAD
+    <div className="Content">
+      <Head/>
+      <Banner/>
+      <Cardapio/>
+      <Contatos/>
+      <Footer/>
+=======
     <div className="App">
       <div className="Content">
         <div className="Head">
@@ -23,6 +35,7 @@ function App() {
           </a>
         </div>
       </div>
+>>>>>>> master
     </div>
   );
 }
