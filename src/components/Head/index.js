@@ -18,7 +18,7 @@ export default class Head extends Component{
                             <Link to="Card" spy={true} smooth={true}>Cardápio</Link>
                         </li>
                         <li className="ItemLista">
-                            <a href="https://order.ubereats.com/brasilia/food-delivery/Pinu's%20Burguer/ny6GmXJkRaSpKWzrdCzXcQ/?utm_source=web-restaurant-manager"  target="_blank"  rel="noopener noreferrer">Delivery</a>
+                            <a href="https://order.ubereats.com/brasilia/food-delivery/Pinu's%20Burguer/Gs_zoPaFQYinVSHcUtXPqw/?utm_source=web-restaurant-manager"  target="_blank"  rel="noopener noreferrer">Delivery</a>
                         </li>
                         <li className="ItemLista">
                             <Link to="Contatos" spy={true} smooth={true}>Contato</Link>
