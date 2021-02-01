@@ -9,14 +9,6 @@ export default function Contatos(){
             <div className="Area">
                 <div className="Endereços">
                     <h2>Localização</h2>
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.83873778018702!2d-48.01620845045539!3d-15.887062827678788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDUzJzEzLjEiUyA0OMKwMDAnNTguMCJX!5e0!3m2!1spt-BR!2sbr!4v1611249399042!5m2!1spt-BR!2sbr" 
-                        frameborder="0" 
-                        allowfullscreen="" 
-                        aria-hidden="false" 
-                        tabindex="0"
-                        title="Maps">
-                    </iframe>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15349.687950479023!2d-48.0160353!3d-15.8869483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e445713e157ddda!2sPinu&#39;s%20Burguer!5e0!3m2!1sen!2sbr!4v1611946787057!5m2!1sen!2sbr" 
                         frameborder="0"
                         allowfullscreen=""
