@@ -3,7 +3,7 @@ import './styles.css';
 
 export default function Contatos(){
     const whats = "https://wa.me/5561996232774"
-    const insta = "https://instagram/pinusburguer/"
+    const insta = "https://www.instagram.com/pinusburguer/"
     return(
         <div id="Contatos" className="Contatos">
             <div className="Area">
@@ -16,6 +16,13 @@ export default function Contatos(){
                         aria-hidden="false" 
                         tabindex="0"
                         title="Maps">
+                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15349.687950479023!2d-48.0160353!3d-15.8869483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e445713e157ddda!2sPinu&#39;s%20Burguer!5e0!3m2!1sen!2sbr!4v1611946787057!5m2!1sen!2sbr" 
+                        frameborder="0"
+                        allowfullscreen=""
+                        aria-hidden="false" 
+                        tabindex="0"
+                        title="Maps">    
                     </iframe>
                     <div className="Midias">
                         <div className="Whatsapp">                     
