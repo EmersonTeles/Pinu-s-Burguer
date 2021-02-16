@@ -20,14 +20,14 @@ export default function Contatos(){
                         <div className="Whatsapp">                     
                             <a href={whats}  target="_blank"  rel="noopener noreferrer">
                                 <i class="fa fa-whatsapp" aria-hidden="true"/>
+                                <h3>Whatsapp</h3>
                             </a>
-                            <h3>Whatsapp</h3>
                         </div>  
                         <div className="Instagram">  
                             <a href={insta}  target="_blank"  rel="noopener noreferrer">
                                 <i class="fa fa-instagram" aria-hidden="true"/>
+                                <h3>Instagram</h3>
                             </a>
-                            <h3>Instagram</h3>
                         </div>  
                     </div>
                     <h2>pinusburguer@gmail.com</h2>
