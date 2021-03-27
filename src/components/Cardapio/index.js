@@ -60,7 +60,7 @@ export default function Cardapio(){
                     <li className="Milkshake">
                         <h2>Milk Shakes</h2>
                         <img src={milkshake} alt="MilkShake"/>
-                        <h3>Sabores de Ovomaltine, Morango e Chocolate.</h3>
+                        <h3>Sabores de Ovomaltine, Paçoca, Leite Ninho e Nesquik de morango.</h3>
                     </li>
                 </ul>
                 <div className="Cardapio-img">

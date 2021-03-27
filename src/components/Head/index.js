@@ -18,10 +18,13 @@ export default class Head extends Component{
                             <Link to="Card" spy={true} smooth={true}>Cardápio</Link>
                         </li>
                         <li className="ItemLista">
-                            <a href="https://www.ifood.com.br/delivery/brasilia-df/pinus-burguer-riacho-fundo-i/1157a3fa-2fe3-4839-8619-7730465d8520"  target="_blank"  rel="noopener noreferrer">Delivery</a>
+                            <Link to="Contatos" spy={true} smooth={true}>Contato</Link>
                         </li>
                         <li className="ItemLista">
-                            <Link to="Contatos" spy={true} smooth={true}>Contato</Link>
+                            <a href="https://www.ifood.com.br/delivery/brasilia-df/pinus-burguer-riacho-fundo-i/1157a3fa-2fe3-4839-8619-7730465d8520"  target="_blank"  rel="noopener noreferrer">Ifood</a>
+                        </li>
+                        <li className="ItemLista">
+                            <a href="https://www.ubereats.com/brasilia/food-delivery/pinus-burguer/Gs_zoPaFQYinVSHcUtXPqw"  target="_blank"  rel="noopener noreferrer">UberEats</a>
                         </li>
                     </ul>
                 </div>

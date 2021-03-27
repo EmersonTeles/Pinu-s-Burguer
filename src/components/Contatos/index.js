@@ -33,14 +33,15 @@ export default function Contatos(){
                     <h2>pinusburguer@gmail.com</h2>
                 </div>
                 
-                <h1>Horário de Funcionamento</h1>
+                
                 <div className="Horarios">
-                    <h2>Segunda-feira: 18h30-23h</h2>
-                    <h2>Terça-feira: 18h30-23h</h2>
-                    <h2>Quarta-feira: 18h30-23h</h2>
-                    <h2>Quinta-feira: 18h30-23h</h2>
-                    <h2>Sexta-feira: 18h30-23h</h2>
-                    <h2>Sábado: 18h30-23h</h2>
+                    <h1>Horário Especial de Lockdown:</h1>
+                    <h2>Segunda-feira: 18h-22h</h2>
+                    <h2>Terça-feira: 18h-22h</h2>
+                    <h2>Quarta-feira: 18h-22h</h2>
+                    <h2>Quinta-feira: 18h-22h</h2>
+                    <h2>Sexta-feira: 18h-22h</h2>
+                    <h2>Sábado: 18h-22h</h2>
                     <h2>Domingo: Fechado</h2>
                 </div>
             </div>
