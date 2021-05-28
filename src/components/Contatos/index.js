@@ -35,7 +35,6 @@ export default function Contatos(){
                 
                 
                 <div className="Horarios">
-                    <h1>Horário Especial de Lockdown:</h1>
                     <h2>Segunda-feira: 18h-22h</h2>
                     <h2>Terça-feira: Fechado</h2>
                     <h2>Quarta-feira: 18h-22h</h2>
