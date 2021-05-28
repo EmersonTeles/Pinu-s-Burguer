@@ -42,6 +42,9 @@ a{
     cursor: pointer;
     text-decoration: solid;
 }
+Navbar{
+    display: none;
+}
 @media (max-width: 1300px){
     .Options{
         display: flex;

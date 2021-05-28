@@ -30,7 +30,7 @@ export default class Head extends Component{
                         </ul>
                     </div>
                 </div>
-                <Navbar/>
+                <Navbar className="NavBar"/>
             </>
         )
     }
