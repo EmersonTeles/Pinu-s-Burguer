@@ -18,7 +18,7 @@
     .btn-pedir{
         height: 0px;
         width: 40vw;
-        border-bottom: 5vh solid rgb(71 126 128);
+        border-bottom: 4.5vh solid rgb(71 126 128);
         border-left: 1.5vh solid transparent;
         border-right: 1.5vh solid transparent;
         display: flex;
@@ -27,7 +27,7 @@
     }
     .btn-pedir h1{
         font-size: 1rem;
-        top:15px;
+        top:20px;
         position: relative;
     }
     .nav-icons{
